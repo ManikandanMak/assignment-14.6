@@ -1,0 +1,30 @@
+
+1)	Apache Thrift is a software framework for implementing Remote Procedure Call (RPC), with cross-language support.
+RPC is a protocol that uses program from one file to another without any network details.
+It has its own Interface Definition Language and also generates code of any language.
+
+2)	REST stands for Representational State Transfer, which uses standard protocol for web application.
+It uses the common HTable based client API to access the tables.
+
+3)	Bulk import in Hbase is a utility that will load data present in TSV format into Hbase.
+Before running ImportTsv data must be saved in TSV format.
+The TSV file must contain a column for the Hbase Row Key. 
+
+4)	Workflow is a representation of a method or any activity in a step wise diagrammatic representation.
+Oozie is a server based workflow engine, where workflow jobs are Directed Acyclic Graph.
+
+5)	 We can Track the Oozie job with the help of following        
+workflow.xml (stored in HDFS).
+It contains the structure of workflow.
+job.Properties (stored in local). 
+It contains the configuration properties
+
+6)	Some of jobs that can be scheduled with Oozie are
+Time and data availability based scheduling which is scheduled to execute at a certain time and date which is identified by TriggerDatasetDir and runs until specified end time.    
+Time based scheduling which is scheduled to execute at a certain time, but are configured to run at specified intervals.                                                                                                              
+
+7)	 Oozie Coordinator is a collection of predicates and actions. 
+Actions are recurrent workflow jobs invoked each time predicate returns true.
+It is used to schedule jobs that are specific to a system like java, shell scripts, etc
+
+
